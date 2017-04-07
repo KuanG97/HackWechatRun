@@ -1,12 +1,30 @@
-<html>
-<body>
-
-<form action="hackWechatRun.php" method="post">
-uid: <input type="text" name="uid" size="5"><br>
-steps: <input type="text" name="steps" size="2"><br>
-pc_value: <input type="text" name="pc_value" size="35"><br>
-<input type="submit">
-</form>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HackWechatRun</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="#fff">
+<div class="container">
+    <div class="form-title"><p>HackWechatRun</p></div>
+    <div class="form-box">
+        <form role="form" enctype="multipart/form-data" method="post" action="hackWechatRun.php" name="">
+            <div class="form-inputbox">
+                <input type="text" name="steps" placeholder="steps">
+            </div>
+            <div class="form-inputbox">
+                <input type="text" name="uid" placeholder="uid">
+            </div>
+            <div class="form-inputbox">
+                <input type="text" name="pc_value" placeholder="pc_value">
+            </div>
+            <div class="form-submitbox">
+                <input type="submit" name="" value="Submit">
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>
